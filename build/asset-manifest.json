@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ddd84e67.chunk.css",
+    "main.js": "/static/js/main.d44a4398.chunk.js",
+    "main.js.map": "/static/js/main.d44a4398.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1c1e15db.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1c1e15db.js.map",
+    "static/js/2.bd8aaf93.chunk.js": "/static/js/2.bd8aaf93.chunk.js",
+    "static/js/2.bd8aaf93.chunk.js.map": "/static/js/2.bd8aaf93.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.ddd84e67.chunk.css.map": "/static/css/main.ddd84e67.chunk.css.map",
+    "static/js/2.bd8aaf93.chunk.js.LICENSE.txt": "/static/js/2.bd8aaf93.chunk.js.LICENSE.txt",
+    "static/media/desktop-and-mobile.af83d787.png": "/static/media/desktop-and-mobile.af83d787.png",
+    "static/media/sensor-af.da211242.png": "/static/media/sensor-af.da211242.png",
+    "static/media/sensor-hf.544cff7a.png": "/static/media/sensor-hf.544cff7a.png",
+    "static/media/sensor-tca.f14a3bb9.png": "/static/media/sensor-tca.f14a3bb9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1c1e15db.js",
+    "static/js/2.bd8aaf93.chunk.js",
+    "static/css/main.ddd84e67.chunk.css",
+    "static/js/main.d44a4398.chunk.js"
+  ]
+}
