@@ -1,0 +1,245 @@
+/* ==================== SECTION 1 ==================== */
+/* ----- section ----- */
+.home_section1 {
+    padding: 10% 0;
+    background-color: #263252;
+    color: #fff;
+    text-align: center;
+}
+
+
+/* ----- imagens ----- */
+.home_section1_text_div div img {
+    width: 131.88px;
+    height: 22.22px;
+    margin-top: 3.2rem;
+}
+
+
+.home_section1_img img {
+    width: 100%;
+    max-width: 692px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==================== SECTION 2 ==================== */
+/* ----- section ----- */
+.home_section2 {
+    padding: 10% 2%;
+    text-align: center;
+    background-color: #F4F7FC;
+}
+
+
+/* ----- text ----- */
+.home_section2_text_div p {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+/* ----- button ----- */
+.home_section2_text_div button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* ----- imagem ----- */
+.home_section2_img_div {
+    margin-top: 3rem;
+}
+
+
+.home_section2_boxes_div img {
+    width: 50%;
+    max-width: 276px;
+}
+
+
+.home_section2_boxes_div {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #5D7A8C;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==================== SECTION 3 ==================== */
+.home_section3 {
+    padding: 10% 0;
+    text-align: center;
+    color: #fff;
+}
+
+/* ----- as propriedades CSS do <Form /> estão no arquivo Form, que está dentro de Components ----- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==================== MEDIA QUERIES ==================== */
+@media (min-width: 1024px) {
+/* ==================== SECTION 1 ==================== */
+    /* ----- section ----- */
+    .home_section1 {
+        padding: 0;
+        text-align: start;
+        background-color: initial;
+    }
+
+    .home_section1_main_div {
+        background-image: url("https://raw.githubusercontent.com/felipe-catete/teste-front-end/main/assets-desafio-01/grafismo.png");
+        background-repeat: no-repeat;
+        background-size: 100% 720px;
+        background-position: center;
+        padding: 0 0 6% 9%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+
+
+
+/* ==================== SECTION 2 ==================== */
+    /* ----- section ----- */
+    .home_section2 {
+        padding: 7% 0 4% 0;
+    }
+
+    /* ----- text ----- */
+    .home_section2_text_div p {
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 1.5rem;
+        padding-bottom: 3rem;
+        line-height: 3.6rem;
+    }
+
+    /* ----- imagem ----- */
+    .home_section2_img_div {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .home_section2_boxes_div img {
+        width: 276px;
+    }
+
+
+
+
+
+/* ==================== SECTION 3 ==================== */
+    .home_section3 {
+        padding: 4% 0;
+    }
+} /* ---- laptops and desktops ---- */
+
+
+
+
+
+@media (min-width: 762px) and (max-width: 1024px) {
+/* ==================== SECTION 2 ==================== */
+    /* ----- section ----- */
+    .home_section2 {
+        padding: 7% 0 4% 0;
+    }
+
+
+    /* ----- imagem ----- */
+    .home_section2_img_div {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .home_section2_img_div div img {
+        width: 80%;
+    }
+
+
+
+
+
+/* ==================== SECTION 3 ==================== */
+    /* ---- section ---- */
+    .home_section3 {
+        padding: 4% 0;
+    }
+} /* ---- tablets ---- */

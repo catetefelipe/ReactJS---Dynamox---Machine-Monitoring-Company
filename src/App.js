@@ -1,24 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+
+// LINKS DE LIGAÇÃO ENTRE AS PÁGINAS DA SINGLE PAGE APPLICATION (SPA)
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
+// NAVBAR
+import Header from "./Components/Header/index";
+import DynaPredict from "./Pages/DynaPredict/index";
+
+// PÁGINAS
+import Home from "./Pages/Home/index";
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Router>
+        <Header />
+          <Switch>
+            <Route path="/" component={Home} exact />
+            <Route path="/dynapredict" component={DynaPredict} exact />
+          </Switch>
+      </Router>
   );
 }
 

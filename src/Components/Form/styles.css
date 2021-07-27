@@ -1,0 +1,37 @@
+.home_section3 form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+
+.home_section3 form input {
+    width: 90%;
+    height: 4.1rem;
+    max-width: 426px;
+    margin: .6rem;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 1.6rem;
+    color: #454545;
+}
+
+
+#enviar_button {
+    width: 183px;
+    height: 39px;
+    margin-top: 2.8rem;
+    font-size: 2rem;
+    padding-right: 2rem;
+    background-color: #0165DB;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#enviar_button:hover {
+    background-color: #005cc5;
+}

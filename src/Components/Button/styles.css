@@ -1,0 +1,55 @@
+.button {
+    width: 183px;
+    height: 39px;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+.darkblue_btn {
+    background-color: #263252;
+}
+
+
+.defaultblue_btn {
+    background-color: #0165DB;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==================== MEDIA QUERIES ==================== */
+@media (min-width: 1024px) {
+    .button {
+        font-size: 2rem;
+    }
+} /* ---- laptops and desktops ---- */
+
+
+
+@media (min-width: 762px) and (max-width: 1024px) {
+    .button {
+        font-size: 1.7rem;
+    }
+} /* ---- tablets ---- */
